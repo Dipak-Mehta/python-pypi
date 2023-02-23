@@ -15,8 +15,7 @@ jobs:
     - name: Install pypa/build
       run: >-
         python -m
-        pip3 install
-        build
+        pip install
         --user
     - name: Build a binary wheel and a source tarball
       run: >-
